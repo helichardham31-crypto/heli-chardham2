@@ -10,3 +10,6 @@ storage/framework/views
 tour-travel-heli.zip
 heli_bckup1
 h
+# Never bake locally generated caches into the image - a stale bootstrap/cache/config.php
+# would carry local DB credentials and silently override every Railway variable.
+bootstrap/cache/*.php

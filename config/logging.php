@@ -17,7 +17,17 @@ return [
     |
     */
 
-    'default' => env('LOG_CHANNEL', 'stack'),
+    /*
+    | Railway (like most container hosts) only surfaces stdout/stderr. The
+    | default "stack" channel writes to storage/logs/laravel.log, which lives
+    | inside the ephemeral container and never reaches `railway logs` - which
+    | is why a 500 there shows up as a blank page with no trace anywhere.
+    |
+    | RAILWAY_ENVIRONMENT is injected into every Railway deployment, so use it
+    | to fall back to the stderr channel. Setting LOG_CHANNEL explicitly still
+    | wins, and local development is unaffected.
+    */
+    'default' => env('LOG_CHANNEL', env('RAILWAY_ENVIRONMENT') ? 'stderr' : 'stack'),
 
     /*
     |--------------------------------------------------------------------------
