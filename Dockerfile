@@ -41,7 +41,8 @@ COPY --from=vendor /app/vendor ./vendor
 COPY --from=assets /app/public ./public
 COPY . .
 
-RUN chown -R www-data:www-data storage bootstrap/cache \
+RUN mkdir -p storage/framework/cache storage/framework/sessions storage/framework/views storage/logs bootstrap/cache \
+    && chown -R www-data:www-data storage bootstrap/cache \
     && php artisan package:discover --ansi
 
 CMD ["apache2-foreground"]
