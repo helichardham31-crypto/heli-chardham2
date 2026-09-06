@@ -115,38 +115,40 @@
                     <!-- Booking List -->
                     <div class="mt-4">
                         <h4>All Bookings</h4>
-                        <table class="table table-bordered">
-                            <thead>
-                                <tr>
-                                    <th>#</th>
-                                    <th>Booking ID</th>
-                                    <th>Name</th>
-                                    <th>Travel Date</th>
-                                    <th>From</th>
-                                    <th>To</th>
-                                    <th>Booking Status</th>
-                                    <th>Payment Status</th>
-                                    <th>Actions</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                @foreach($bookings as $booking)
+                        <div class="table-responsive">
+                            <table class="table table-bordered">
+                                <thead>
                                     <tr>
-                                        <td>{{ $loop->iteration }}</td>
-                                        <td>{{ $booking->booking_id }}</td>
-                                        <td>{{ $booking->name }}</td>
-                                        <td>{{ $booking->travel_date }}</td>
-                                        <td>{{ $booking->travel_from }}</td>
-                                        <td>{{ $booking->travel_to }}</td>
-                                        <td>{{ $booking->booking_status }}</td>
-                                        <td>{{ $booking->payment_status }}</td>
-                                        <td>
-                                            <a href="{{ route('admin.booking.edit', $booking->id) }}" class="btn btn-sm btn-info">Edit</a>
-                                        </td>
+                                        <th>#</th>
+                                        <th>Booking ID</th>
+                                        <th>Name</th>
+                                        <th>Travel Date</th>
+                                        <th>From</th>
+                                        <th>To</th>
+                                        <th>Booking Status</th>
+                                        <th>Payment Status</th>
+                                        <th>Actions</th>
                                     </tr>
-                                @endforeach
-                            </tbody>
-                        </table>
+                                </thead>
+                                <tbody>
+                                    @foreach($bookings as $booking)
+                                        <tr>
+                                            <td>{{ $loop->iteration }}</td>
+                                            <td>{{ $booking->booking_id }}</td>
+                                            <td>{{ $booking->name }}</td>
+                                            <td>{{ $booking->travel_date }}</td>
+                                            <td>{{ $booking->travel_from }}</td>
+                                            <td>{{ $booking->travel_to }}</td>
+                                            <td>{{ $booking->booking_status }}</td>
+                                            <td>{{ $booking->payment_status }}</td>
+                                            <td>
+                                                <a href="{{ route('admin.booking.edit', $booking->id) }}" class="btn btn-sm btn-info">Edit</a>
+                                            </td>
+                                        </tr>
+                                    @endforeach
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
 
 							

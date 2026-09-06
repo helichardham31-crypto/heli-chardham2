@@ -27,30 +27,32 @@
                     <!-- Booking List -->
                     <div class="mt-4">
                         <h4>All Contacts</h4>
-                        <table class="table table-bordered">
-                            <thead>
-                                <tr>
-                                    <th>#</th>
-                                    <th>Name</th>
-                                    <th>Email</th>
-                                    <th>Phone</th>
-                                    <th>Message</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                @foreach($contacts as $contact)
+                        <div class="table-responsive">
+                            <table class="table table-bordered">
+                                <thead>
                                     <tr>
-                                        <td>{{ $loop->iteration }}</td>
-                                       
-                                        <td>{{ $contact->yourname }}</td>
-                                        <td>{{ $contact->email }}</td>
-                                        <td>{{ $contact->number }}</td>
-                                        <td>{{ $contact->message }}</td>
-                                      
+                                        <th>#</th>
+                                        <th>Name</th>
+                                        <th>Email</th>
+                                        <th>Phone</th>
+                                        <th>Message</th>
                                     </tr>
-                                @endforeach
-                            </tbody>
-                        </table>
+                                </thead>
+                                <tbody>
+                                    @foreach($contacts as $contact)
+                                        <tr>
+                                            <td>{{ $loop->iteration }}</td>
+                                           
+                                            <td>{{ $contact->yourname }}</td>
+                                            <td>{{ $contact->email }}</td>
+                                            <td>{{ $contact->number }}</td>
+                                            <td>{{ $contact->message }}</td>
+                                          
+                                        </tr>
+                                    @endforeach
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
 
 							

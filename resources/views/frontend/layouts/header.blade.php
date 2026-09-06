@@ -21,7 +21,7 @@
             <div class="col-6 col-xl-5 col-md-4">
                 <div class="text-end">
                     <a class="d-inline-flex align-items-center me-3" data-bs-toggle="modal" href="#mdlLanguage">
-                        <img src="assets/img/flags/en.svg" height="14" class="me-1" alt="">
+                        <img src="{{ asset('frontend/assets/img/flags/en.svg') }}" height="14" class="me-1" alt="">
                         <span class="me-1">English</span>
                         <i class="hicon hicon-thin-arrow-down hicon-bold hicon-60"></i>
                     </a>
@@ -44,12 +44,12 @@
                 <i class="hicon hicon-bold hicon-hamburger-menu"></i>
             </button>
             <a class="navbar-brand" href="{{url('/')}}">
-                <img src="{{asset('frontend/assets/img/logo.png')}}" style="width: 90px"  alt="">
+                <img src="{{asset('frontend/assets/img/logo.png')}}" class="brand-logo" width="500" height="500" alt="Char Dham Yatra by Helicopter - I.R.C.T.C">
             </a>
             <div class="offcanvas offcanvas-navbar offcanvas-start border-end-0" tabindex="-1" id="offcanvasNavbar">
                 <div class="offcanvas-header border-bottom p-4 p-xl-0">
                     <a href="{{url('/')}}" class="d-inline-block">
-                        <img src="{{asset('frontend/assets/img/logo.png')}}" style="width: 90px" alt="">
+                        <img src="{{asset('frontend/assets/img/logo.png')}}" class="brand-logo" width="500" height="500" alt="Char Dham Yatra by Helicopter - I.R.C.T.C">
                     </a>
                     <button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
@@ -121,7 +121,7 @@
                     <li class="col-6 col-lg-4">
                         <a href="index9ed2.html?lang=en" class="link-dark link-hover">
                             <span class="d-flex align-items-center pt-2 pb-2">
-                                <img src="assets/img/flags/en.svg" height="16" alt="">
+                                <img src="{{ asset('frontend/assets/img/flags/en.svg') }}" height="16" alt="">
                                 <span class="ms-2">English</span>
                             </span>
                         </a>
@@ -129,7 +129,7 @@
                     <li class="col-6 col-lg-4">
                         <a href="index9ed2.html?lang=en" class="link-dark link-hover">
                             <span class="d-flex align-items-center pt-2 pb-2">
-                                <img src="assets/img/flags/fr.svg" height="16" alt="">
+                                <img src="{{ asset('frontend/assets/img/flags/fr.svg') }}" height="16" alt="">
                                 <span class="ms-2">Français</span>
                             </span>
                         </a>
@@ -137,7 +137,7 @@
                     <li class="col-6 col-lg-4">
                         <a href="index9ed2.html?lang=en" class="link-dark link-hover">
                             <span class="d-flex align-items-center pt-2 pb-2">
-                                <img src="assets/img/flags/es.svg" height="16" alt="">
+                                <img src="{{ asset('frontend/assets/img/flags/es.svg') }}" height="16" alt="">
                                 <span class="ms-2">Español</span>
                             </span>
                         </a>
@@ -145,7 +145,7 @@
                     <li class="col-6 col-lg-4">
                         <a href="index9ed2.html?lang=en" class="link-dark link-hover">
                             <span class="d-flex align-items-center pt-2 pb-2">
-                                <img src="assets/img/flags/de.svg" height="16" alt="">
+                                <img src="{{ asset('frontend/assets/img/flags/de.svg') }}" height="16" alt="">
                                 <span class="ms-2">Deutsch</span>
                             </span>
                         </a>
@@ -153,7 +153,7 @@
                     <li class="col-6 col-lg-4">
                         <a href="index9ed2.html?lang=en" class="link-dark link-hover">
                             <span class="d-flex align-items-center pt-2 pb-2">
-                                <img src="assets/img/flags/it.svg" height="16" alt="">
+                                <img src="{{ asset('frontend/assets/img/flags/it.svg') }}" height="16" alt="">
                                 <span class="ms-2">Italiano</span>
                             </span>
                         </a>
@@ -161,7 +161,7 @@
                     <li class="col-6 col-lg-4">
                         <a href="index9ed2.html?lang=en" class="link-dark link-hover">
                             <span class="d-flex align-items-center pt-2 pb-2">
-                                <img src="assets/img/flags/nl.svg" height="16" alt="">
+                                <img src="{{ asset('frontend/assets/img/flags/nl.svg') }}" height="16" alt="">
                                 <span class="ms-2">Nederlands</span>
                             </span>
                         </a>
@@ -169,7 +169,7 @@
                     <li class="col-6 col-lg-4">
                         <a href="index9ed2.html?lang=en" class="link-dark link-hover">
                             <span class="d-flex align-items-center pt-2 pb-2">
-                                <img src="assets/img/flags/pt.svg" height="16" alt="">
+                                <img src="{{ asset('frontend/assets/img/flags/pt.svg') }}" height="16" alt="">
                                 <span class="ms-2">Português</span>
                             </span>
                         </a>
@@ -177,7 +177,7 @@
                     <li class="col-6 col-lg-4">
                         <a href="index9ed2.html?lang=en" class="link-dark link-hover">
                             <span class="d-flex align-items-center pt-2 pb-2">
-                                <img src="assets/img/flags/ru.svg" height="16" alt="">
+                                <img src="{{ asset('frontend/assets/img/flags/ru.svg') }}" height="16" alt="">
                                 <span class="ms-2">Русский</span>
                             </span>
                         </a>
@@ -185,7 +185,7 @@
                     <li class="col-6 col-lg-4">
                         <a href="index9ed2.html?lang=en" class="link-dark link-hover">
                             <span class="d-flex align-items-center pt-2 pb-2">
-                                <img src="assets/img/flags/cn.svg" height="16" alt="">
+                                <img src="{{ asset('frontend/assets/img/flags/cn.svg') }}" height="16" alt="">
                                 <span class="ms-2">日本語</span>
                             </span>
                         </a>

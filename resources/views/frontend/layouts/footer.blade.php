@@ -9,11 +9,11 @@
                 <!-- Brand -->
                 <div class="footer-widget">
                     <a href="{{ url('/') }}" class="brand-img">
-                        <img class="me-4" src="assets/img/logos/footer-logo.png" srcset="./assets/img/logos/footer-logo@2x.png 2x" alt="">
+                        <img class="footer-brand-logo" src="{{ asset('frontend/assets/img/logo-footer.png') }}" width="500" height="500" alt="Char Dham Yatra by Helicopter - I.R.C.T.C">
                     </a>
                     <p class="brand-desc">
                         <em>
-                            IRCTC offers unique and memorable tours, providing rich experiences in the beautiful country of India.
+                            I.R.C.T.C offers unique and memorable tours, providing rich experiences in the beautiful country of India.
                         </em>
                         <!-- <a href="about.html">[+]</a> -->
                     </p>
@@ -100,7 +100,7 @@
             <div class="col-12 col-xl-3 col-md-6">
                 <!-- Quick Links -->
                 <div class="footer-widget">
-                    <h2 class="h4 pb-3">IRCTC helicopter Service for Chardham Yatra </h2>
+                    <h2 class="h4 pb-3">I.R.C.T.C helicopter Service for Chardham Yatra </h2>
                     <ul class="footer-link">
                         <li class="link-item">
                             <a href="{{url('/about')}}">About us</a>
@@ -127,12 +127,12 @@
                         <div class="row g-3">
                             <div class="col-6">
                                 <a href="#">
-                                    <img src="assets/img/icons/i1.svg" class="w-100" alt="">
+                                    <img src="{{ asset('frontend/assets/img/icons/i1.svg') }}" class="w-100" alt="">
                                 </a>
                             </div>
                             <div class="col-6">
                                 <a href="#">
-                                    <img src="assets/img/icons/i2.svg" class="w-100" alt="">
+                                    <img src="{{ asset('frontend/assets/img/icons/i2.svg') }}" class="w-100" alt="">
                                 </a>
                             </div>
                         </div>
@@ -141,7 +141,7 @@
                     <!-- Social -->
                     <div class="footer-local">
                         <a data-bs-toggle="modal" href="#mdlLanguage" class="me-4">
-                            <img src="assets/img/flags/en.svg" height="14" alt="" class="me-2">
+                            <img src="{{ asset('frontend/assets/img/flags/en.svg') }}" height="14" alt="" class="me-2">
                             <span class="me-1">English</span>
                             <i class="hicon hicon-thin-arrow-down fsm-6"></i>
                         </a>

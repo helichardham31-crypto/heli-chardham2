@@ -46,7 +46,7 @@
 <!-- Title -->
 <section class="hero">
             <div class="hero-bg">
-            <img src="{{asset('frontend/assets/img/tours/bg.jpg')}}" srcset="./frontend/assets/img/tours/bg.jpg 2x"  alt="">
+            <img src="{{asset('frontend/assets/img/tours/bg.jpg')}}"  alt="">
 
             </div>
             <div class="bg-content container">

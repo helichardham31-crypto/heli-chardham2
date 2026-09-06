@@ -3,7 +3,7 @@
  <!-- Title -->
  <section class="hero" data-aos="fade">
             <div class="hero-bg">
-                  <img src="{{asset('frontend/assets/img/tours/bg.jpg')}}" srcset="./frontend/assets/img/tours/bg.jpg 2x"  alt="">
+                  <img src="{{asset('frontend/assets/img/tours/bg.jpg')}}"  alt="">
             </div>
             <div class="bg-content container">
                 <div class="hero-page-title">
@@ -51,7 +51,7 @@
                                 <div class="col-12">
                                     <div class="fw-medium mb-3">
                                         <i class="hicon hicon-email-envelope text-primary me-2"></i>
-                                        <a href="#">booking@irctc-helicopterservice.com                            </a>
+                                        <a href="mailto:booking@irctc-helicopterservice.com" class="text-break">booking@irctc-helicopterservice.com</a>
 
                                     </div>
                                 </div>

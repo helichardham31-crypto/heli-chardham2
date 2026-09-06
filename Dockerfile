@@ -35,9 +35,15 @@ COPY --from=vendor /app/vendor ./vendor
 COPY --from=assets /app/public ./public
 COPY . .
 
-RUN mkdir -p storage/framework/cache storage/framework/sessions storage/framework/views storage/logs bootstrap/cache \
+RUN mkdir -p storage/framework/cache storage/framework/sessions storage/framework/views storage/logs storage/app/public bootstrap/cache \
     && chown -R www-data:www-data storage bootstrap/cache \
     && php artisan package:discover --ansi
+
+# public/storage -> storage/app/public, the link `php artisan storage:link` makes.
+# --force recreates it if a stale directory or link was copied in from the build
+# context. `|| true` stops a link failure from breaking the build: nothing in this
+# app currently reads from the storage disk, so the link is precautionary.
+RUN php artisan storage:link --force || true
 
 # Do NOT use `php artisan serve` here.
 #

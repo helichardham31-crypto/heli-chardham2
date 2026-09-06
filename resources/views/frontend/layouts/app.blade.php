@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - IRCTC helicopter Service for Chardham Yatra</title>
+    <title>Home - I.R.C.T.C helicopter Service for Chardham Yatra</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="Themenix.com">
@@ -13,6 +13,8 @@
     <link href="{{ asset('frontend/assets/css/theme-3.min.css') }}" rel="stylesheet">
     <link href="{{ asset('frontend/assets/css/pkg.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Responsive corrections - must load last so it overrides the theme -->
+    <link href="{{ asset('frontend/assets/css/responsive.css') }}" rel="stylesheet">
 
     <!-- Optional: Bootstrap CSS (already included in theme likely) -->
 </head>
@@ -79,8 +81,10 @@
     <!-- Show Modal Once Per Session -->
     <script>
         document.addEventListener("DOMContentLoaded", function () {
+            var modalEl = document.getElementById('warningModal');
+            if (!modalEl || typeof bootstrap === 'undefined') return;
             if (!sessionStorage.getItem("warningModalShown")) {
-                var warningModal = new bootstrap.Modal(document.getElementById('warningModal'), {
+                var warningModal = new bootstrap.Modal(modalEl, {
                     backdrop: 'static',
                     keyboard: false
                 });

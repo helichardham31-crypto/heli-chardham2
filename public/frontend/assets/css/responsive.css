@@ -1,0 +1,309 @@
+/* ==========================================================================
+   responsive.css
+
+   Responsive corrections layered on top of the purchased theme.
+   Loaded last (after theme-1/2/3 and pkg.css) so these rules win.
+
+   Scope: the hand-written parts of the site — the brand logos, the topbar,
+   the package cards from pkg.css, the booking-status page and the footer.
+   The theme's own Bootstrap breakpoints are already sound and are left alone.
+
+   Breakpoints follow Bootstrap 5: 575.98 / 767.98 / 991.98 / 1199.98.
+   ========================================================================== */
+
+
+/* --------------------------------------------------------------------------
+   1. Page-level overflow guard
+   Keeps a single wide element (a long URL, an absolutely positioned badge)
+   from introducing a horizontal scrollbar on phones.
+   `clip` is used where supported because, unlike `hidden`, it does not turn
+   the element into a scroll container and so leaves position:sticky working.
+   -------------------------------------------------------------------------- */
+html,
+body {
+    overflow-x: hidden;
+    overflow-x: clip;
+}
+
+/* Media should never exceed its column. */
+img,
+svg,
+video,
+iframe {
+    max-width: 100%;
+}
+
+
+/* --------------------------------------------------------------------------
+   2. Brand logos
+   The logo is a 500x500 square lockup, so its rendered width is also its
+   height — 90px was leaving an unnecessarily tall header on small phones.
+   -------------------------------------------------------------------------- */
+.brand-logo {
+    width: 90px;
+    height: auto;
+}
+
+.footer-brand-logo {
+    width: 150px;
+    height: auto;
+    max-width: 100%;
+}
+
+@media (max-width: 991.98px) {
+    .brand-logo {
+        width: 78px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .brand-logo {
+        width: 64px;
+    }
+
+    .footer-brand-logo {
+        width: 128px;
+    }
+}
+
+
+/* --------------------------------------------------------------------------
+   3. Header topbar
+   The theme sets a fixed 40px height with a 1rem font at every width. On a
+   360px phone the phone number, language and currency cannot all fit at that
+   size, so the row overflows its 40px box. Scale the type down instead.
+   -------------------------------------------------------------------------- */
+@media (max-width: 767.98px) {
+    .header-topbar {
+        font-size: 0.8125rem;
+    }
+}
+
+@media (max-width: 399.98px) {
+    .header-topbar {
+        font-size: 0.75rem;
+    }
+
+    /* The currency picker is the least useful of the three on a narrow
+       screen; drop it before the phone number gets squeezed. */
+    .header-topbar .col-6:last-child a:last-child {
+        display: none !important;
+    }
+}
+
+
+/* --------------------------------------------------------------------------
+   4. Package cards (.kPack, from pkg.css)
+   -------------------------------------------------------------------------- */
+
+/* Cards in the same row were free-standing blocks of differing height, which
+   left ragged gaps in the two-up grid. Stretch them and pin the price/CTA
+   strip to the bottom so the cards line up.
+   Scoped to .col-md-6 (the card columns) so the centred .col-md-12 heading
+   block above them is not turned into a flex item. */
+.trip-packages .row > .col-md-6 {
+    display: flex;
+}
+
+.trip-packages .row > .col-md-6 > .kPack {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.trip-packages .row > .col-md-6 > .kPack .kPack-btm {
+    margin-top: auto;
+}
+
+/* The heading block is the one that varies most in height. */
+.kPack1 h3,
+.kPack-cnt h3 {
+    overflow-wrap: break-word;
+}
+
+/* Inclusions strip: `justify-content: space-around` scatters the items once
+   they wrap. A fixed grid keeps them aligned at every width. */
+.kPack3 ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem 0.25rem;
+}
+
+.kPack3 ul li {
+    text-align: center;
+}
+
+@media (max-width: 400px) {
+    .kPack3 ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Price + the two CTAs sit side by side. Below ~420px there is not enough
+   room, so stack them and let the buttons span the full width. */
+.kPack-btm2 a {
+    padding: 6px 10px;
+}
+
+@media (max-width: 419.98px) {
+    .kPack-btm {
+        display: block;
+    }
+
+    .kPack-btm1 {
+        margin-bottom: 10px;
+    }
+
+    .kPack-btm2 a {
+        display: block;
+        width: 100%;
+        font-size: 16px;
+    }
+}
+
+
+/* --------------------------------------------------------------------------
+   5. Booking-status page (.pnr-container)
+   -------------------------------------------------------------------------- */
+
+/* `margin: 40px auto` gave the card no side gutter once the viewport dropped
+   below its 600px max-width, so it ran edge to edge. */
+@media (max-width: 640px) {
+    body .pnr-container {
+        margin: 24px 16px;
+        padding: 20px 16px;
+    }
+
+    body .pnr-container h2 {
+        font-size: 20px;
+    }
+}
+
+/* NOTE on specificity: checkbookingstatus.blade.php declares its own <style>
+   inside @section('content'), so that block renders in the <body> — after this
+   file's <link> in the <head>. On an equal-specificity tie it would win, so the
+   rules below are deliberately qualified with .pnr-container to outrank it. */
+
+/* Long values ("Dehradun to Kedarnath") could push the result table wider
+   than the card. Fix the layout and let the text wrap. */
+.pnr-container .pnr-result table {
+    table-layout: fixed;
+}
+
+.pnr-container .pnr-result table th,
+.pnr-container .pnr-result table td {
+    overflow-wrap: break-word;
+    text-align: left;
+    vertical-align: top;
+}
+
+/* Below 480px a two-column table is unreadable — stack label over value. */
+@media (max-width: 479.98px) {
+    .pnr-container .pnr-result table,
+    .pnr-container .pnr-result table tbody,
+    .pnr-container .pnr-result table tr,
+    .pnr-container .pnr-result table th,
+    .pnr-container .pnr-result table td {
+        display: block;
+        width: 100%;
+    }
+
+    .pnr-container .pnr-result table tr {
+        border-bottom: 1px solid #eee;
+        padding: 8px 0;
+    }
+
+    .pnr-container .pnr-result table th {
+        border-bottom: 0;
+        padding: 0 0 2px;
+        font-size: 13px;
+        font-weight: 600;
+        color: #6c757d;
+    }
+
+    .pnr-container .pnr-result table td {
+        border-bottom: 0;
+        padding: 0;
+        font-weight: 500;
+    }
+
+    .pnr-container .pnr-result table tr:last-child {
+        border-bottom: 0;
+    }
+}
+
+
+/* --------------------------------------------------------------------------
+   6. Footer
+   The address, email and website are long unbreakable strings sharing a
+   narrow column.
+   -------------------------------------------------------------------------- */
+.footer .contact-info a,
+.footer .contact-info span,
+.footer .brand-desc {
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+@media (max-width: 767.98px) {
+    .footer .footer-widget {
+        margin-bottom: 2rem;
+    }
+
+    .footer-bottom .list-inline {
+        padding-left: 0;
+    }
+}
+
+
+/* --------------------------------------------------------------------------
+   7. Section headings (.gtitle, from pkg.css)
+   pkg.css jumps straight from 25px to 18px at 587px; fill in the tablet range.
+   -------------------------------------------------------------------------- */
+@media (min-width: 588px) and (max-width: 767.98px) {
+    .gtitle h2 {
+        font-size: 21px;
+    }
+}
+
+
+/* --------------------------------------------------------------------------
+   8. Touch targets
+   Keep the small text links and buttons tappable on touch screens.
+   -------------------------------------------------------------------------- */
+@media (max-width: 767.98px) {
+    .kPack-btm2 a,
+    .redxbn a,
+    .moreless-button {
+        min-height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .moreless-button {
+        width: auto;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
+
+
+/* --------------------------------------------------------------------------
+   9. Floating WhatsApp button
+   Shrink it slightly on phones so it covers less of the content it overlays.
+   -------------------------------------------------------------------------- */
+/* The layout declares .whatsapp-float in a <style> inside the <body>, so these
+   are qualified with `body` to outrank it (see the note in section 5). */
+@media (max-width: 575.98px) {
+    body .whatsapp-float {
+        bottom: 14px;
+        left: 14px;
+        padding: 8px;
+    }
+
+    body .whatsapp-float img {
+        width: 34px;
+        height: 34px;
+    }
+}
