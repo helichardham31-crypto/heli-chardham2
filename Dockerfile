@@ -29,6 +29,8 @@ RUN apt-get update \
     && apt-get install -y --no-install-recommends libfreetype6-dev libjpeg62-turbo-dev libpng-dev libzip-dev \
     && docker-php-ext-configure gd --with-freetype --with-jpeg \
     && docker-php-ext-install -j"$(nproc)" bcmath exif gd pdo_mysql zip \
+    && a2dismod mpm_event \
+    && a2enmod mpm_prefork \
     && a2enmod rewrite \
     && rm -rf /var/lib/apt/lists/*
 
