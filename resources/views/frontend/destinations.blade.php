@@ -645,43 +645,6 @@
                     <div class="col-md-6">
                         <div class="kPack">
                             <div class="kPack-thumb">
-                                <a href="{{ url('/contact') }}" title="Sirsi to Kedarnath Helicopter Service">
-                                    <img src="{{asset('frontend/assets/img/tours/kedarnath.jpg')}}" width="775" height="375" alt="Sirsi to Kedarnath Helicopter Service">
-                                </a>
-                            </div>
-                            <div class="kPack1">
-                                <h3>Sirsi to Kedarnath Helicopter Service</h3>
-                            </div>
-                            <div class="kPack2">
-                                <ul>
-                                    <li><b>Starting Point: </b>Sirsi</li>
-                                    <li><b>Destination: </b>Kedarnath</li>
-                                    <li><b>Service: </b>Round Trip Helicopter</li>
-                                </ul>
-                            </div>
-                            <div class="kPack3">
-                                <p><b>Service Inclusions</b></p>
-                                <ul>
-                                    <li>Helicopter Service</li>
-                                    <li>Round Trip Flight</li>
-                                    <li>Sirsi to Kedarnath &amp; Return</li>
-                                </ul>
-                            </div>
-                            <div class="kPack-btm">
-                                <div class="kPack-btm1">
-                                    <p>Starting Price Per Adult</p>
-                                    <span class="kp-new">&#8377; 7,064 /-</span>
-                                </div>
-                                <div class="kPack-btm2">
-                                    <a href="{{ url('/contact') }}" class="modal-link">Send Query</a>
-                                    <a href="tel:+917976903598">Call Us</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="kPack">
-                            <div class="kPack-thumb">
                                 <a href="{{ url('/contact') }}" title="Phata to Kedarnath Helicopter Service">
                                     <img src="{{asset('frontend/assets/img/tours/p3.jpeg')}}" width="775" height="375" alt="Phata to Kedarnath Helicopter Service">
                                 </a>
@@ -719,82 +682,8 @@
                     <div class="col-md-6">
                         <div class="kPack">
                             <div class="kPack-thumb">
-                                <a href="{{ url('/contact') }}" title="Phata to Kedarnath Helicopter Service">
-                                    <img src="{{asset('frontend/assets/img/h3.jpeg')}}" width="775" height="375" alt="Phata to Kedarnath Helicopter Service">
-                                </a>
-                            </div>
-                            <div class="kPack1">
-                                <h3>Phata to Kedarnath Helicopter Service</h3>
-                            </div>
-                            <div class="kPack2">
-                                <ul>
-                                    <li><b>Starting Point: </b>Phata</li>
-                                    <li><b>Destination: </b>Kedarnath</li>
-                                    <li><b>Service: </b>Round Trip Helicopter</li>
-                                </ul>
-                            </div>
-                            <div class="kPack3">
-                                <p><b>Service Inclusions</b></p>
-                                <ul>
-                                    <li>Helicopter Service</li>
-                                    <li>Round Trip Flight</li>
-                                    <li>Phata to Kedarnath &amp; Return</li>
-                                </ul>
-                            </div>
-                            <div class="kPack-btm">
-                                <div class="kPack-btm1">
-                                    <p>Starting Price Per Adult</p>
-                                    <span class="kp-new">&#8377; 11,026 /-</span>
-                                </div>
-                                <div class="kPack-btm2">
-                                    <a href="{{ url('/contact') }}" class="modal-link">Send Query</a>
-                                    <a href="tel:+917976903598">Call Us</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="kPack">
-                            <div class="kPack-thumb">
                                 <a href="{{ url('/contact') }}" title="Guptkashi to Kedarnath Helicopter Service">
                                     <img src="{{asset('frontend/assets/img/h1.jpeg')}}" width="775" height="375" alt="Guptkashi to Kedarnath Helicopter Service">
-                                </a>
-                            </div>
-                            <div class="kPack1">
-                                <h3>Guptkashi to Kedarnath Helicopter Service</h3>
-                            </div>
-                            <div class="kPack2">
-                                <ul>
-                                    <li><b>Starting Point: </b>Guptkashi</li>
-                                    <li><b>Destination: </b>Kedarnath</li>
-                                    <li><b>Service: </b>Round Trip Helicopter</li>
-                                </ul>
-                            </div>
-                            <div class="kPack3">
-                                <p><b>Service Inclusions</b></p>
-                                <ul>
-                                    <li>Helicopter Service</li>
-                                    <li>Round Trip Flight</li>
-                                    <li>Guptkashi to Kedarnath &amp; Return</li>
-                                </ul>
-                            </div>
-                            <div class="kPack-btm">
-                                <div class="kPack-btm1">
-                                    <p>Starting Price Per Adult</p>
-                                    <span class="kp-new">&#8377; 13,754 /-</span>
-                                </div>
-                                <div class="kPack-btm2">
-                                    <a href="{{ url('/contact') }}" class="modal-link">Send Query</a>
-                                    <a href="tel:+917976903598">Call Us</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="kPack">
-                            <div class="kPack-thumb">
-                                <a href="{{ url('/contact') }}" title="Guptkashi to Kedarnath Helicopter Service">
-                                    <img src="{{asset('frontend/assets/img/tours/char-dham-yatra-1598202094.jpg')}}" width="775" height="375" alt="Guptkashi to Kedarnath Helicopter Service">
                                 </a>
                             </div>
                             <div class="kPack1">
