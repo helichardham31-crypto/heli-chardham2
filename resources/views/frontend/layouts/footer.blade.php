@@ -9,11 +9,11 @@
                 <!-- Brand -->
                 <div class="footer-widget">
                     <a href="{{ url('/') }}" class="brand-img">
-                        <img class="footer-brand-logo" src="{{ asset('frontend/assets/img/logo-footer.png') }}" width="500" height="500" alt="Char Dham Yatra by Helicopter - I.R.C.T.C">
+                        <img class="footer-brand-logo" src="{{ asset('frontend/assets/img/logo-footer.png') }}" width="500" height="500" alt="Char Dham Yatra by Helicopter - I.R.C.T.C.">
                     </a>
                     <p class="brand-desc">
                         <em>
-                            I.R.C.T.C offers unique and memorable tours, providing rich experiences in the beautiful country of India.
+                            I.R.C.T.C. offers unique and memorable tours, providing rich experiences in the beautiful country of India.
                         </em>
                         <!-- <a href="about.html">[+]</a> -->
                     </p>
@@ -82,15 +82,19 @@
                         </p>
                         <p>
                             <i class="fas fa-phone-alt"></i>
-                            <span>1800103006 <strong>(Toll Free Number)</strong></span>
+                            <a href="tel:+917976903598">+91 7976903598</a>
+                        </p>
+                        <p>
+                            <i class="fab fa-whatsapp"></i>
+                            <a href="https://wa.me/919587060474" target="_blank">+91 9587060474 <strong>(WhatsApp)</strong></a>
                         </p>
                         <p>
                             <i class="fas fa-envelope"></i>
-                            <a href="mailto:booking@irctc-helicopterservice.com">booking@irctc-helicopterservice.com</a>
+                            <a href="mailto:helichardham31@gmail.com">helichardham31@gmail.com</a>
                         </p>
                         <p>
                             <i class="fas fa-globe"></i>
-                            <a href="https://irctc-helicopterservice.com" target="_blank">irctc-helicopterservice.com</a>
+                            <a href="https://helichardham.co.in/" target="_blank">helichardham.co.in</a>
                         </p>
                     </div>
 
@@ -100,7 +104,7 @@
             <div class="col-12 col-xl-3 col-md-6">
                 <!-- Quick Links -->
                 <div class="footer-widget">
-                    <h2 class="h4 pb-3">I.R.C.T.C helicopter Service for Chardham Yatra </h2>
+                    <h2 class="h4 pb-3">I.R.C.T.C. helicopter Service for Chardham Yatra </h2>
                     <ul class="footer-link">
                         <li class="link-item">
                             <a href="{{url('/about')}}">About us</a>

@@ -32,7 +32,7 @@
                         <div class="stats-item">
                             <h3 class="h1 stats-number">+500</h3>
                             <p class="stats-desc">
-                                Successful <br> I.R.C.T.C Helicopter Tours
+                                Successful <br> I.R.C.T.C. Helicopter Tours
                             </p>
                         </div>
                     </li>
@@ -40,7 +40,7 @@
                         <div class="stats-item">
                             <h3 class="h1 stats-number">+2.5L</h3>
                             <p class="stats-desc">
-                                Pilgrims Served <br> by I.R.C.T.C Services
+                                Pilgrims Served <br> by I.R.C.T.C. Services
                             </p>
                         </div>
                     </li>
@@ -50,7 +50,7 @@
                             <p class="stats-desc">
                                 <span class="star-rate-view star-rate-size-sm"><span class="star-value rate-50"></span></span>
                                 <br>
-                                <span>Rated on Google & I.R.C.T.C</span>
+                                <span>Rated on Google & I.R.C.T.C.</span>
                             </p>
                         </div>
                     </li>
@@ -89,10 +89,10 @@
                                 <div class="info-top-right">
                                     <div class="vertical-award rounded shadow-sm">
                                         <div class="award-content">
-                                            <img src="{{asset('frontend/assets/img/logo.png')}}" class="w-100" alt="I.R.C.T.C Logo">
+                                            <img src="{{asset('frontend/assets/img/logo.png')}}" class="w-100" alt="I.R.C.T.C. Logo">
                                         </div>
                                         <div class="award-footer">
-                                            <small>I.R.C.T.C Helicopter Yatra</small>
+                                            <small>I.R.C.T.C. Helicopter Yatra</small>
                                         </div>
                                     </div>
                                 </div>
@@ -105,13 +105,13 @@
                         <div class="mb-5 mb-xl-0">
                             <div class="block-title">
                                 <small class="sub-title">About Us</small>
-                                <h2 class="h1 title">Char Dham Yatra by Helicopter – Powered by I.R.C.T.C</h2>
+                                <h2 class="h1 title">Char Dham Yatra by Helicopter – Powered by I.R.C.T.C.</h2>
                             </div>
                             <p>
-                                Experience divine comfort and trusted service with <strong>I.R.C.T.C's official Char Dham Yatra by Helicopter</strong>. Designed for convenience, speed, and spiritual fulfillment, this yatra connects you to the sacred shrines of Yamunotri, Gangotri, Kedarnath, and Badrinath — all via luxurious helicopter services.
+                                Experience divine comfort and trusted service with <strong>I.R.C.T.C.'s official Char Dham Yatra by Helicopter</strong>. Designed for convenience, speed, and spiritual fulfillment, this yatra connects you to the sacred shrines of Yamunotri, Gangotri, Kedarnath, and Badrinath — all via luxurious helicopter services.
                             </p>
                             <p>
-                                Backed by <strong>I.R.C.T.C’s legacy of reliability</strong> and customer satisfaction, we ensure a seamless journey with curated packages, VIP darshan, and top-notch safety standards.
+                                Backed by <strong>I.R.C.T.C.’s legacy of reliability</strong> and customer satisfaction, we ensure a seamless journey with curated packages, VIP darshan, and top-notch safety standards.
                             </p>
                             <ul class="strength-list row g-0 pt-2">
                                 <li class="col-12 col-md-6">
@@ -119,7 +119,7 @@
                                         <span class="strength-icon">
                                             <i class="hicon hicon-150 hicon-confirmation-instant"></i>
                                         </span>
-                                        <strong class="strength-title">I.R.C.T.C-Verified Travel Packages</strong>
+                                        <strong class="strength-title">I.R.C.T.C.-Verified Travel Packages</strong>
                                     </div>
                                 </li>
                                 <li class="col-12 col-md-6">
@@ -143,7 +143,7 @@
                                         <span class="strength-icon">
                                             <i class="hicon hicon-150 hicon-agoda-price-guarante"></i>
                                         </span>
-                                        <strong class="strength-title">I.R.C.T.C Trust & Safety Standards</strong>
+                                        <strong class="strength-title">I.R.C.T.C. Trust & Safety Standards</strong>
                                     </div>
                                 </li>
                             </ul>

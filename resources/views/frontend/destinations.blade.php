@@ -30,7 +30,7 @@
                         <div class="stats-item">
                             <h3 class="h1 stats-number">+500</h3>
                             <p class="stats-desc">
-                                Successful <br> I.R.C.T.C Helicopter Tours
+                                Successful <br> I.R.C.T.C. Helicopter Tours
                             </p>
                         </div>
                     </li>
@@ -38,7 +38,7 @@
                         <div class="stats-item">
                             <h3 class="h1 stats-number">+2.5L</h3>
                             <p class="stats-desc">
-                                Pilgrims Served <br> by I.R.C.T.C Services
+                                Pilgrims Served <br> by I.R.C.T.C. Services
                             </p>
                         </div>
                     </li>
@@ -48,7 +48,7 @@
                             <p class="stats-desc">
                                 <span class="star-rate-view star-rate-size-sm"><span class="star-value rate-50"></span></span>
                                 <br>
-                                <span>Rated on Google & I.R.C.T.C</span>
+                                <span>Rated on Google & I.R.C.T.C.</span>
                             </p>
                         </div>
                     </li>
@@ -71,9 +71,9 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="gtitle">
-                            <h2><b>I.R.C.T.C Certified</b> Dham Yatra Helicopter Packages</h2>
+                            <h2><b>I.R.C.T.C. Certified</b> Dham Yatra Helicopter Packages</h2>
                             <div class="middle-hr"></div>
-                            <p>Book your spiritual journey with trust and ease through our exclusive I.R.C.T.C-endorsed helicopter tours to the divine Dhams of Uttarakhand.</p>
+                            <p>Book your spiritual journey with trust and ease through our exclusive I.R.C.T.C.-endorsed helicopter tours to the divine Dhams of Uttarakhand.</p>
                         </div>
                     </div>
 
@@ -81,12 +81,12 @@
                     <div class="col-md-6">
                         <div class="kPack">
                             <div class="kPack-thumb">
-                                <a href="{{url('/destinations')}}" title="I.R.C.T.C 4 Dham Yatra">
-                                    <img src="{{asset('frontend/assets/img/tours/char.jpeg')}}" width="775" height="375" alt="I.R.C.T.C 4 Dham Yatra">
+                                <a href="{{url('/destinations')}}" title="4 Dham Yatra">
+                                    <img src="{{asset('frontend/assets/img/tours/char.jpeg')}}" width="775" height="375" alt="4 Dham Yatra">
                                 </a>
                             </div>
                             <div class="kPack1">
-                                <h3>I.R.C.T.C 4 Dham Yatra</h3>
+                                <h3>4 Dham Yatra</h3>
                             </div>
                             <div class="kPack2">
                                 <ul>
@@ -109,11 +109,11 @@
                                 <div class="kPack-btm1">
                                     <p>Starting From</p>
                                     <span class="kp-old">₹ 95,000</span>
-                                    <span class="kp-new">₹ 65,000 /-</span>
+                                    <span class="kp-new">&#8377; 65,000 /-</span>
                                 </div>
                                 <div class="kPack-btm2">
                                     <a href="{{ url('/contact') }}" class="modal-link">Send Query</a>
-                                    <a href="https://wa.me/917976903598" target="_blank">Call Us</a>
+                                    <a href="tel:+917976903598">Call Us</a>
                                 </div>
                             </div>
                         </div>
@@ -123,12 +123,12 @@
                     <div class="col-md-6">
                         <div class="kPack">
                             <div class="kPack-thumb">
-                                <a href="{{url('/destinations')}}" title="I.R.C.T.C 2 Dham Yatra">
-                                    <img src="{{asset('frontend/assets/img/tours/2dham.jpeg')}}" width="775" height="375" alt="I.R.C.T.C 2 Dham Yatra">
+                                <a href="{{url('/destinations')}}" title="2 Dham Yatra">
+                                    <img src="{{asset('frontend/assets/img/tours/2dham.jpeg')}}" width="775" height="375" alt="2 Dham Yatra">
                                 </a>
                             </div>
                             <div class="kPack1">
-                                <h3>I.R.C.T.C 2 Dham Yatra</h3>
+                                <h3>2 Dham Yatra</h3>
                             </div>
                             <div class="kPack2">
                                 <ul>
@@ -151,11 +151,11 @@
                                 <div class="kPack-btm1">
                                     <p>Starting From</p>
                                     <span class="kp-old">₹ 60,000</span>
-                                    <span class="kp-new">₹ 35,000 /-</span>
+                                    <span class="kp-new">&#8377; 35,000 /-</span>
                                 </div>
                                 <div class="kPack-btm2">
                                     <a href="{{ url('/contact') }}" class="modal-link">Send Query</a>
-                                    <a href="https://wa.me/919587510717" target="_blank">Call Us</a>
+                                    <a href="tel:+917976903598">Call Us</a>
                                 </div>
                             </div>
                         </div>
@@ -165,12 +165,12 @@
                     <div class="col-md-6">
                         <div class="kPack">
                             <div class="kPack-thumb">
-                                <a href="{{url('/destinations')}}" title="I.R.C.T.C 2 Dham Yatra">
-                                    <img src="{{asset('frontend/assets/img/tours/gyo.jpeg')}}" width="775" height="375" alt="I.R.C.T.C 2 Dham Yatra">
+                                <a href="{{url('/destinations')}}" title="2 Dham Yatra">
+                                    <img src="{{asset('frontend/assets/img/tours/gyo.jpeg')}}" width="775" height="375" alt="2 Dham Yatra">
                                 </a>
                             </div>
                             <div class="kPack1">
-                                <h3>I.R.C.T.C 2 Dham Yatra</h3>
+                                <h3>2 Dham Yatra</h3>
                             </div>
                             <div class="kPack2">
                                 <ul>
@@ -193,11 +193,11 @@
                                 <div class="kPack-btm1">
                                     <p>Starting From</p>
                                     <span class="kp-old">₹ 55,000</span>
-                                    <span class="kp-new">₹ 32,000 /-</span>
+                                    <span class="kp-new">&#8377; 35,000 /-</span>
                                 </div>
                                 <div class="kPack-btm2">
                                     <a href="{{ url('/contact') }}" class="modal-link">Send Query</a>
-                                    <a href="https://wa.me/919587510717" target="_blank">Call Us</a>
+                                    <a href="tel:+917976903598">Call Us</a>
                                 </div>
                             </div>
                         </div>
@@ -207,12 +207,12 @@
                     <div class="col-md-6">
                         <div class="kPack">
                             <div class="kPack-thumb">
-                                <a href="{{url('/destinations')}}" title="I.R.C.T.C 3 Dham Yatra">
-                                    <img src="{{asset('frontend/assets/img/tours/gangotri-kedarnath-badrinath.png')}}" width="775" height="375" alt="I.R.C.T.C 3 Dham Yatra">
+                                <a href="{{url('/destinations')}}" title="3 Dham Yatra">
+                                    <img src="{{asset('frontend/assets/img/tours/gangotri-kedarnath-badrinath.png')}}" width="775" height="375" alt="3 Dham Yatra">
                                 </a>
                             </div>
                             <div class="kPack1">
-                                <h3>I.R.C.T.C 3 Dham Yatra</h3>
+                                <h3>3 Dham Yatra</h3>
                             </div>
                             <div class="kPack2">
                                 <ul>
@@ -235,11 +235,11 @@
                                 <div class="kPack-btm1">
                                     <p>Starting From</p>
                                     <span class="kp-old">₹ 80,000</span>
-                                    <span class="kp-new">₹ 55,000 /-</span>
+                                    <span class="kp-new">&#8377; 55,000 /-</span>
                                 </div>
                                 <div class="kPack-btm2">
                                     <a href="{{ url('/contact') }}" class="modal-link">Send Query</a>
-                                    <a href="https://wa.me/919587510717" target="_blank">Call Us</a>
+                                    <a href="tel:+917976903598">Call Us</a>
                                 </div>
                             </div>
                         </div>
@@ -249,12 +249,12 @@
                     <div class="col-md-6">
                         <div class="kPack">
                             <div class="kPack-thumb">
-                                <a href="{{url('/destinations')}}" title="I.R.C.T.C 3 Dham Yatra">
-                                    <img src="{{asset('frontend/assets/img/tours/kby.jpg')}}" width="775" height="375" alt="I.R.C.T.C 3 Dham Yatra">
+                                <a href="{{url('/destinations')}}" title="3 Dham Yatra">
+                                    <img src="{{asset('frontend/assets/img/tours/kby.jpg')}}" width="775" height="375" alt="3 Dham Yatra">
                                 </a>
                             </div>
                             <div class="kPack1">
-                                <h3>I.R.C.T.C 3 Dham Yatra</h3>
+                                <h3>3 Dham Yatra</h3>
                             </div>
                             <div class="kPack2">
                                 <ul>
@@ -277,11 +277,11 @@
                                 <div class="kPack-btm1">
                                     <p>Starting From</p>
                                     <span class="kp-old">₹ 78,000</span>
-                                    <span class="kp-new">₹ 53,000 /-</span>
+                                    <span class="kp-new">&#8377; 55,000 /-</span>
                                 </div>
                                 <div class="kPack-btm2">
                                     <a href="{{ url('/contact') }}" class="modal-link">Send Query</a>
-                                    <a href="https://wa.me/919587510717" target="_blank">Call Us</a>
+                                    <a href="tel:+917976903598">Call Us</a>
                                 </div>
                             </div>
                         </div>
@@ -291,12 +291,12 @@
                     <div class="col-md-6">
                         <div class="kPack">
                             <div class="kPack-thumb">
-                                <a href="{{url('/destinations')}}" title="I.R.C.T.C 3 Dham Yatra">
-                                    <img src="{{asset('frontend/assets/img/tours/3dham-yg-b.jpeg')}}" width="775" height="375" alt="I.R.C.T.C 3 Dham Yatra">
+                                <a href="{{url('/destinations')}}" title="3 Dham Yatra">
+                                    <img src="{{asset('frontend/assets/img/tours/3dham-yg-b.jpeg')}}" width="775" height="375" alt="3 Dham Yatra">
                                 </a>
                             </div>
                             <div class="kPack1">
-                                <h3>I.R.C.T.C 3 Dham Yatra</h3>
+                                <h3>3 Dham Yatra</h3>
                             </div>
                             <div class="kPack2">
                                 <ul>
@@ -319,11 +319,11 @@
                                 <div class="kPack-btm1">
                                     <p>Starting From</p>
                                     <span class="kp-old">₹ 78,000</span>
-                                    <span class="kp-new">₹ 53,000 /-</span>
+                                    <span class="kp-new">&#8377; 55,000 /-</span>
                                 </div>
                                 <div class="kPack-btm2">
                                     <a href="{{ url('/contact') }}" class="modal-link">Send Query</a>
-                                    <a href="https://wa.me/919587510717" target="_blank">Call Us</a>
+                                    <a href="tel:+917976903598">Call Us</a>
                                 </div>
                             </div>
                         </div>
@@ -333,12 +333,12 @@
                     <div class="col-md-6">
                         <div class="kPack">
                             <div class="kPack-thumb">
-                                <a href="{{url('/destinations')}}" title="I.R.C.T.C 3 Dham Yatra">
-                                    <img src="{{asset('frontend/assets/img/tours/teen-dham.jpg')}}" width="775" height="375" alt="I.R.C.T.C 3 Dham Yatra">
+                                <a href="{{url('/destinations')}}" title="3 Dham Yatra">
+                                    <img src="{{asset('frontend/assets/img/tours/teen-dham.jpg')}}" width="775" height="375" alt="3 Dham Yatra">
                                 </a>
                             </div>
                             <div class="kPack1">
-                                <h3>I.R.C.T.C 3 Dham Yatra</h3>
+                                <h3>3 Dham Yatra</h3>
                             </div>
                             <div class="kPack2">
                                 <ul>
@@ -361,11 +361,11 @@
                                 <div class="kPack-btm1">
                                     <p>Starting From</p>
                                     <span class="kp-old">₹ 78,000</span>
-                                    <span class="kp-new">₹ 53,000 /-</span>
+                                    <span class="kp-new">&#8377; 55,000 /-</span>
                                 </div>
                                 <div class="kPack-btm2">
                                     <a href="{{ url('/contact') }}" class="modal-link">Send Query</a>
-                                    <a href="https://wa.me/919587510717" target="_blank">Call Us</a>
+                                    <a href="tel:+917976903598">Call Us</a>
                                 </div>
                             </div>
                         </div>
@@ -375,12 +375,12 @@
                     <div class="col-md-6">
                         <div class="kPack">
                             <div class="kPack-thumb">
-                                <a href="{{url('/destinations')}}" title="I.R.C.T.C 1 Dham Yatra">
-                                    <img src="{{asset('frontend/assets/img/tours/char-dham-yatra-1598202094.jpg')}}" width="775" height="375" alt="I.R.C.T.C 1 Dham Yatra">
+                                <a href="{{url('/destinations')}}" title="1 Dham Yatra">
+                                    <img src="{{asset('frontend/assets/img/tours/char-dham-yatra-1598202094.jpg')}}" width="775" height="375" alt="1 Dham Yatra">
                                 </a>
                             </div>
                             <div class="kPack1">
-                                <h3>I.R.C.T.C 1 Dham Yatra</h3>
+                                <h3>1 Dham Yatra</h3>
                             </div>
                             <div class="kPack2">
                                 <ul>
@@ -403,11 +403,11 @@
                                 <div class="kPack-btm1">
                                     <p>Starting From</p>
                                     <span class="kp-old">₹ 38,000</span>
-                                    <span class="kp-new">₹ 20,000 /-</span>
+                                    <span class="kp-new">&#8377; 22,000 /-</span>
                                 </div>
                                 <div class="kPack-btm2">
                                     <a href="{{ url('/contact') }}" class="modal-link">Send Query</a>
-                                    <a href="https://wa.me/919587510717" target="_blank">Call Us</a>
+                                    <a href="tel:+917976903598">Call Us</a>
                                 </div>
                             </div>
                         </div>
@@ -431,12 +431,12 @@
                     <div class="col-md-6">
                         <div class="kPack">
                             <div class="kPack-thumb">
-                                <a href="{{ url('/contact') }}" title="I.R.C.T.C - Badrinath Yatra By Helicopter">
+                                <a href="{{ url('/contact') }}" title="Badrinath Yatra By Helicopter">
                                     <img src="{{asset('frontend/assets/img/tours/badhrinath.jpg')}}" width="775" height="375" alt="Badrinath Yatra">
                                 </a>
                             </div>
                             <div class="kPack1">
-                                <h3>I.R.C.T.C - Badrinath Yatra By Helicopter</h3>
+                                <h3>Badrinath Yatra By Helicopter</h3>
                             </div>
                             <div class="kPack2">
                                 <ul>
@@ -459,11 +459,11 @@
                                 <div class="kPack-btm1">
                                     <p>Starting Price Per Adult</p>
                                     <span class="kp-old">₹ 38,000</span>
-                                    <span class="kp-new">₹ 20,000 /-</span>
+                                    <span class="kp-new">&#8377; 22,000 /-</span>
                                 </div>
                                 <div class="kPack-btm2">
                                     <a href="{{ url('/contact') }}" class="modal-link">Send Query</a>
-                                    <a href="https://wa.me/919587510717" target="_blank">Call Us</a>
+                                    <a href="tel:+917976903598">Call Us</a>
                                 </div>
                             </div>
                         </div>
@@ -471,12 +471,12 @@
                     <div class="col-md-6">
                         <div class="kPack">
                             <div class="kPack-thumb">
-                                <a href="{{ url('/contact') }}" title="I.R.C.T.C - Kedarnath Yatra By Helicopter">
+                                <a href="{{ url('/contact') }}" title="Kedarnath Yatra By Helicopter">
                                     <img src="{{asset('frontend/assets/img/tours/kedarnath.jpg')}}" width="775" height="375" alt="Kedarnath Yatra">
                                 </a>
                             </div>
                             <div class="kPack1">
-                                <h3>I.R.C.T.C - Kedarnath Yatra By Helicopter</h3>
+                                <h3>Kedarnath Yatra By Helicopter</h3>
                             </div>
                             <div class="kPack2">
                                 <ul>
@@ -499,11 +499,11 @@
                                 <div class="kPack-btm1">
                                     <p>Starting Price Per Adult</p>
                                     <span class="kp-old">₹ 38,000</span>
-                                    <span class="kp-new">₹ 20,000 /-</span>
+                                    <span class="kp-new">&#8377; 22,000 /-</span>
                                 </div>
                                 <div class="kPack-btm2">
                                 <a href="{{ url('/contact') }}" class="modal-link">Send Query</a>
-                                <a href="https://wa.me/919587510717" target="_blank">Call Us</a>
+                                <a href="tel:+917976903598">Call Us</a>
                                 </div>
                             </div>
                         </div>
@@ -511,12 +511,12 @@
                     <div class="col-md-6">
                         <div class="kPack">
                             <div class="kPack-thumb">
-                                <a href="{{ url('/contact') }}" title="I.R.C.T.C - Gangotri Yatra By Helicopter">
+                                <a href="{{ url('/contact') }}" title="Gangotri Yatra By Helicopter">
                                     <img src="{{asset('frontend/assets/img/tours/gangotri.jpg')}}" width="775" height="375" alt="Gangotri Yatra">
                                 </a>
                             </div>
                             <div class="kPack1">
-                                <h3>I.R.C.T.C - Gangotri Yatra By Helicopter</h3>
+                                <h3>Gangotri Yatra By Helicopter</h3>
                             </div>
                             <div class="kPack2">
                                 <ul>
@@ -539,11 +539,11 @@
                                 <div class="kPack-btm1">
                                     <p>Starting Price Per Adult</p>
                                     <span class="kp-old">₹ 38,000</span>
-                                    <span class="kp-new">₹ 20,000 /-</span>
+                                    <span class="kp-new">&#8377; 22,000 /-</span>
                                 </div>
                                 <div class="kPack-btm2">
                                 <a href="{{ url('/contact') }}" class="modal-link">Send Query</a>
-                                <a href="https://wa.me/919587510717" target="_blank">Call Us</a>
+                                <a href="tel:+917976903598">Call Us</a>
                                 </div>
                             </div>
                         </div>
@@ -551,12 +551,12 @@
                     <div class="col-md-6">
                         <div class="kPack">
                             <div class="kPack-thumb">
-                                <a href="{{ url('/contact') }}" title="I.R.C.T.C - Yamunotri Yatra By Helicopter">
+                                <a href="{{ url('/contact') }}" title="Yamunotri Yatra By Helicopter">
                                     <img src="{{asset('frontend/assets/img/tours/yamunotri.webp')}}" width="775" height="375" alt="Yamunotri Yatra">
                                 </a>
                             </div>
                             <div class="kPack1">
-                                <h3>I.R.C.T.C - Yamunotri Yatra By Helicopter</h3>
+                                <h3>Yamunotri Yatra By Helicopter</h3>
                             </div>
                             <div class="kPack2">
                                 <ul>
@@ -579,11 +579,11 @@
                                 <div class="kPack-btm1">
                                     <p>Starting Price Per Adult</p>
                                     <span class="kp-old">₹ 38,000</span>
-                                    <span class="kp-new">₹ 20,000 /-</span>
+                                    <span class="kp-new">&#8377; 22,000 /-</span>
                                 </div>
                                 <div class="kPack-btm2">
                                 <a href="{{ url('/contact') }}" class="modal-link">Send Query</a>
-                                <a href="https://wa.me/919587510717" target="_blank">Call Us</a>
+                                <a href="tel:+917976903598">Call Us</a>
                                 </div>
                             </div>
                         </div>
@@ -594,6 +594,242 @@
             </div>
         </section>
 
+
+        <section class="trip-packages">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="gtitle">
+                        <h2><b>Kedarnath</b> Helicopter Shuttle Services</h2>
+                        <div class="middle-hr"></div>
+                        <p>Same day round trip helicopter shuttles to Kedarnath from the nearest helipads - Sirsi, Phata and Guptkashi.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="kPack">
+                            <div class="kPack-thumb">
+                                <a href="{{ url('/contact') }}" title="Sirsi to Kedarnath Helicopter Service">
+                                    <img src="{{asset('frontend/assets/img/h2.jpeg')}}" width="775" height="375" alt="Sirsi to Kedarnath Helicopter Service">
+                                </a>
+                            </div>
+                            <div class="kPack1">
+                                <h3>Sirsi to Kedarnath Helicopter Service</h3>
+                            </div>
+                            <div class="kPack2">
+                                <ul>
+                                    <li><b>Starting Point: </b>Sirsi</li>
+                                    <li><b>Destination: </b>Kedarnath</li>
+                                    <li><b>Service: </b>Round Trip Helicopter</li>
+                                </ul>
+                            </div>
+                            <div class="kPack3">
+                                <p><b>Service Inclusions</b></p>
+                                <ul>
+                                    <li>Helicopter Service</li>
+                                    <li>Round Trip Flight</li>
+                                    <li>Sirsi to Kedarnath &amp; Return</li>
+                                </ul>
+                            </div>
+                            <div class="kPack-btm">
+                                <div class="kPack-btm1">
+                                    <p>Starting Price Per Adult</p>
+                                    <span class="kp-new">&#8377; 7,064 /-</span>
+                                </div>
+                                <div class="kPack-btm2">
+                                    <a href="{{ url('/contact') }}" class="modal-link">Send Query</a>
+                                    <a href="tel:+917976903598">Call Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="kPack">
+                            <div class="kPack-thumb">
+                                <a href="{{ url('/contact') }}" title="Sirsi to Kedarnath Helicopter Service">
+                                    <img src="{{asset('frontend/assets/img/tours/kedarnath.jpg')}}" width="775" height="375" alt="Sirsi to Kedarnath Helicopter Service">
+                                </a>
+                            </div>
+                            <div class="kPack1">
+                                <h3>Sirsi to Kedarnath Helicopter Service</h3>
+                            </div>
+                            <div class="kPack2">
+                                <ul>
+                                    <li><b>Starting Point: </b>Sirsi</li>
+                                    <li><b>Destination: </b>Kedarnath</li>
+                                    <li><b>Service: </b>Round Trip Helicopter</li>
+                                </ul>
+                            </div>
+                            <div class="kPack3">
+                                <p><b>Service Inclusions</b></p>
+                                <ul>
+                                    <li>Helicopter Service</li>
+                                    <li>Round Trip Flight</li>
+                                    <li>Sirsi to Kedarnath &amp; Return</li>
+                                </ul>
+                            </div>
+                            <div class="kPack-btm">
+                                <div class="kPack-btm1">
+                                    <p>Starting Price Per Adult</p>
+                                    <span class="kp-new">&#8377; 7,064 /-</span>
+                                </div>
+                                <div class="kPack-btm2">
+                                    <a href="{{ url('/contact') }}" class="modal-link">Send Query</a>
+                                    <a href="tel:+917976903598">Call Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="kPack">
+                            <div class="kPack-thumb">
+                                <a href="{{ url('/contact') }}" title="Phata to Kedarnath Helicopter Service">
+                                    <img src="{{asset('frontend/assets/img/tours/p3.jpeg')}}" width="775" height="375" alt="Phata to Kedarnath Helicopter Service">
+                                </a>
+                            </div>
+                            <div class="kPack1">
+                                <h3>Phata to Kedarnath Helicopter Service</h3>
+                            </div>
+                            <div class="kPack2">
+                                <ul>
+                                    <li><b>Starting Point: </b>Phata</li>
+                                    <li><b>Destination: </b>Kedarnath</li>
+                                    <li><b>Service: </b>Round Trip Helicopter</li>
+                                </ul>
+                            </div>
+                            <div class="kPack3">
+                                <p><b>Service Inclusions</b></p>
+                                <ul>
+                                    <li>Helicopter Service</li>
+                                    <li>Round Trip Flight</li>
+                                    <li>Phata to Kedarnath &amp; Return</li>
+                                </ul>
+                            </div>
+                            <div class="kPack-btm">
+                                <div class="kPack-btm1">
+                                    <p>Starting Price Per Adult</p>
+                                    <span class="kp-new">&#8377; 11,026 /-</span>
+                                </div>
+                                <div class="kPack-btm2">
+                                    <a href="{{ url('/contact') }}" class="modal-link">Send Query</a>
+                                    <a href="tel:+917976903598">Call Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="kPack">
+                            <div class="kPack-thumb">
+                                <a href="{{ url('/contact') }}" title="Phata to Kedarnath Helicopter Service">
+                                    <img src="{{asset('frontend/assets/img/h3.jpeg')}}" width="775" height="375" alt="Phata to Kedarnath Helicopter Service">
+                                </a>
+                            </div>
+                            <div class="kPack1">
+                                <h3>Phata to Kedarnath Helicopter Service</h3>
+                            </div>
+                            <div class="kPack2">
+                                <ul>
+                                    <li><b>Starting Point: </b>Phata</li>
+                                    <li><b>Destination: </b>Kedarnath</li>
+                                    <li><b>Service: </b>Round Trip Helicopter</li>
+                                </ul>
+                            </div>
+                            <div class="kPack3">
+                                <p><b>Service Inclusions</b></p>
+                                <ul>
+                                    <li>Helicopter Service</li>
+                                    <li>Round Trip Flight</li>
+                                    <li>Phata to Kedarnath &amp; Return</li>
+                                </ul>
+                            </div>
+                            <div class="kPack-btm">
+                                <div class="kPack-btm1">
+                                    <p>Starting Price Per Adult</p>
+                                    <span class="kp-new">&#8377; 11,026 /-</span>
+                                </div>
+                                <div class="kPack-btm2">
+                                    <a href="{{ url('/contact') }}" class="modal-link">Send Query</a>
+                                    <a href="tel:+917976903598">Call Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="kPack">
+                            <div class="kPack-thumb">
+                                <a href="{{ url('/contact') }}" title="Guptkashi to Kedarnath Helicopter Service">
+                                    <img src="{{asset('frontend/assets/img/h1.jpeg')}}" width="775" height="375" alt="Guptkashi to Kedarnath Helicopter Service">
+                                </a>
+                            </div>
+                            <div class="kPack1">
+                                <h3>Guptkashi to Kedarnath Helicopter Service</h3>
+                            </div>
+                            <div class="kPack2">
+                                <ul>
+                                    <li><b>Starting Point: </b>Guptkashi</li>
+                                    <li><b>Destination: </b>Kedarnath</li>
+                                    <li><b>Service: </b>Round Trip Helicopter</li>
+                                </ul>
+                            </div>
+                            <div class="kPack3">
+                                <p><b>Service Inclusions</b></p>
+                                <ul>
+                                    <li>Helicopter Service</li>
+                                    <li>Round Trip Flight</li>
+                                    <li>Guptkashi to Kedarnath &amp; Return</li>
+                                </ul>
+                            </div>
+                            <div class="kPack-btm">
+                                <div class="kPack-btm1">
+                                    <p>Starting Price Per Adult</p>
+                                    <span class="kp-new">&#8377; 13,754 /-</span>
+                                </div>
+                                <div class="kPack-btm2">
+                                    <a href="{{ url('/contact') }}" class="modal-link">Send Query</a>
+                                    <a href="tel:+917976903598">Call Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="kPack">
+                            <div class="kPack-thumb">
+                                <a href="{{ url('/contact') }}" title="Guptkashi to Kedarnath Helicopter Service">
+                                    <img src="{{asset('frontend/assets/img/tours/char-dham-yatra-1598202094.jpg')}}" width="775" height="375" alt="Guptkashi to Kedarnath Helicopter Service">
+                                </a>
+                            </div>
+                            <div class="kPack1">
+                                <h3>Guptkashi to Kedarnath Helicopter Service</h3>
+                            </div>
+                            <div class="kPack2">
+                                <ul>
+                                    <li><b>Starting Point: </b>Guptkashi</li>
+                                    <li><b>Destination: </b>Kedarnath</li>
+                                    <li><b>Service: </b>Round Trip Helicopter</li>
+                                </ul>
+                            </div>
+                            <div class="kPack3">
+                                <p><b>Service Inclusions</b></p>
+                                <ul>
+                                    <li>Helicopter Service</li>
+                                    <li>Round Trip Flight</li>
+                                    <li>Guptkashi to Kedarnath &amp; Return</li>
+                                </ul>
+                            </div>
+                            <div class="kPack-btm">
+                                <div class="kPack-btm1">
+                                    <p>Starting Price Per Adult</p>
+                                    <span class="kp-new">&#8377; 13,754 /-</span>
+                                </div>
+                                <div class="kPack-btm2">
+                                    <a href="{{ url('/contact') }}" class="modal-link">Send Query</a>
+                                    <a href="tel:+917976903598">Call Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- About -->
         <section class="p-top-90 p-bottom-90 bg-gray-gradient">
             <div class="container">
@@ -613,10 +849,10 @@
                                 <div class="info-top-right">
                                     <div class="vertical-award rounded shadow-sm">
                                         <div class="award-content">
-                                            <img src="{{asset('frontend/assets/img/logo.png')}}" class="w-100" alt="I.R.C.T.C Logo">
+                                            <img src="{{asset('frontend/assets/img/logo.png')}}" class="w-100" alt="I.R.C.T.C. Logo">
                                         </div>
                                         <div class="award-footer">
-                                            <small>I.R.C.T.C Helicopter Yatra</small>
+                                            <small>I.R.C.T.C. Helicopter Yatra</small>
                                         </div>
                                     </div>
                                 </div>
@@ -629,13 +865,13 @@
                         <div class="mb-5 mb-xl-0">
                             <div class="block-title">
                                 <small class="sub-title">About Us</small>
-                                <h2 class="h1 title">Char Dham Yatra by Helicopter – Powered by I.R.C.T.C</h2>
+                                <h2 class="h1 title">Char Dham Yatra by Helicopter – Powered by I.R.C.T.C.</h2>
                             </div>
                             <p>
-                                Experience divine comfort and trusted service with <strong>I.R.C.T.C's official Char Dham Yatra by Helicopter</strong>. Designed for convenience, speed, and spiritual fulfillment, this yatra connects you to the sacred shrines of Yamunotri, Gangotri, Kedarnath, and Badrinath — all via luxurious helicopter services.
+                                Experience divine comfort and trusted service with <strong>I.R.C.T.C.'s official Char Dham Yatra by Helicopter</strong>. Designed for convenience, speed, and spiritual fulfillment, this yatra connects you to the sacred shrines of Yamunotri, Gangotri, Kedarnath, and Badrinath — all via luxurious helicopter services.
                             </p>
                             <p>
-                                Backed by <strong>I.R.C.T.C’s legacy of reliability</strong> and customer satisfaction, we ensure a seamless journey with curated packages, VIP darshan, and top-notch safety standards.
+                                Backed by <strong>I.R.C.T.C.’s legacy of reliability</strong> and customer satisfaction, we ensure a seamless journey with curated packages, VIP darshan, and top-notch safety standards.
                             </p>
                             <ul class="strength-list row g-0 pt-2">
                                 <li class="col-12 col-md-6">
@@ -643,7 +879,7 @@
                                         <span class="strength-icon">
                                             <i class="hicon hicon-150 hicon-confirmation-instant"></i>
                                         </span>
-                                        <strong class="strength-title">I.R.C.T.C-Verified Travel Packages</strong>
+                                        <strong class="strength-title">I.R.C.T.C.-Verified Travel Packages</strong>
                                     </div>
                                 </li>
                                 <li class="col-12 col-md-6">
@@ -667,7 +903,7 @@
                                         <span class="strength-icon">
                                             <i class="hicon hicon-150 hicon-agoda-price-guarante"></i>
                                         </span>
-                                        <strong class="strength-title">I.R.C.T.C Trust & Safety Standards</strong>
+                                        <strong class="strength-title">I.R.C.T.C. Trust & Safety Standards</strong>
                                     </div>
                                 </li>
                             </ul>

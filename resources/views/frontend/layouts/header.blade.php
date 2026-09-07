@@ -7,14 +7,14 @@
         <div class="row g-0">
             <div class="col-6 col-xl-7 col-md-8">
                 <div class="d-flex align-items-center">
-                    <a href="tel:+84966704132">
+                    <a href="tel:+917976903598">
                         <i class="hicon hicon-telephone me-1"></i>
-                        <span>919587510717</span>
+                        <span>+91 7976903598</span>
                     </a>
                     <span class="vr bg-white d-none d-md-inline ms-3 me-3"></span>
-                    <a href="mailto:" class="d-none d-md-inline">
+                    <a href="mailto:helichardham31@gmail.com" class="d-none d-md-inline">
                         <i class="hicon hicon-email-envelope me-1"></i>
-                        <span>booking@irctc-helicopterservice.com                        </span>
+                        <span>helichardham31@gmail.com</span>
                     </a>
                 </div>
             </div>
@@ -44,12 +44,12 @@
                 <i class="hicon hicon-bold hicon-hamburger-menu"></i>
             </button>
             <a class="navbar-brand" href="{{url('/')}}">
-                <img src="{{asset('frontend/assets/img/logo.png')}}" class="brand-logo" width="500" height="500" alt="Char Dham Yatra by Helicopter - I.R.C.T.C">
+                <img src="{{asset('frontend/assets/img/logo.png')}}" class="brand-logo" width="500" height="500" alt="Char Dham Yatra by Helicopter - I.R.C.T.C.">
             </a>
             <div class="offcanvas offcanvas-navbar offcanvas-start border-end-0" tabindex="-1" id="offcanvasNavbar">
                 <div class="offcanvas-header border-bottom p-4 p-xl-0">
                     <a href="{{url('/')}}" class="d-inline-block">
-                        <img src="{{asset('frontend/assets/img/logo.png')}}" class="brand-logo" width="500" height="500" alt="Char Dham Yatra by Helicopter - I.R.C.T.C">
+                        <img src="{{asset('frontend/assets/img/logo.png')}}" class="brand-logo" width="500" height="500" alt="Char Dham Yatra by Helicopter - I.R.C.T.C.">
                     </a>
                     <button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>

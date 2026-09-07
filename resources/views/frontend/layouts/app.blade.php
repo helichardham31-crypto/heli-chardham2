@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - I.R.C.T.C helicopter Service for Chardham Yatra</title>
+    <title>Home - I.R.C.T.C. helicopter Service for Chardham Yatra</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="Themenix.com">
@@ -39,7 +39,7 @@
     @include('frontend.layouts.script')
 
     <!-- WhatsApp Floating Icon -->
-    <a href="https://wa.me/917976903598" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+    <a href="https://wa.me/919587060474" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
         <img src="{{ asset('frontend/assets/img/wp.png') }}" alt="WhatsApp Chat" />
     </a>
 

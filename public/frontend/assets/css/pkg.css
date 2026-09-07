@@ -309,3 +309,10 @@ p.mapp {
 div#costBox {
     margin-bottom: 15px;
 }
+
+/* Sector shuttle cards quote a single price, so drop the divider that
+   separates it from a struck-through old price. */
+.kPack-btm1 span.kp-new:first-of-type {
+    border-left: 0;
+    padding-left: 0;
+}

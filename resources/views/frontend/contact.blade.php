@@ -45,13 +45,19 @@
                                 <div class="col-12">
                                     <div class="fw-medium mb-3">
                                         <i class="hicon hicon-telephone text-primary me-2"></i>
-                                        <span>1800103006</span>
+                                        <a href="tel:+917976903598">+91 7976903598</a>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="fw-medium mb-3">
+                                        <i class="fab fa-whatsapp text-primary me-2"></i>
+                                        <a href="https://wa.me/919587060474" target="_blank">+91 9587060474 (WhatsApp)</a>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="fw-medium mb-3">
                                         <i class="hicon hicon-email-envelope text-primary me-2"></i>
-                                        <a href="mailto:booking@irctc-helicopterservice.com" class="text-break">booking@irctc-helicopterservice.com</a>
+                                        <a href="mailto:helichardham31@gmail.com" class="text-break">helichardham31@gmail.com</a>
 
                                     </div>
                                 </div>
