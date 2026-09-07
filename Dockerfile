@@ -60,4 +60,11 @@ RUN php artisan storage:link --force || true
 # This line runs the same server artisan would have (docroot = public/, with
 # ../server.php as the mod_rewrite shim) while inheriting the full environment.
 # `exec` keeps PHP as PID 1 so it receives Railway's shutdown signals.
-CMD ["sh", "-c", "cd public && exec php -S 0.0.0.0:${PORT:-8080} ../server.php"]
+#
+# Migrations run first, on every container start. Already-applied ones are
+# skipped via the migrations table, and each migration here also checks
+# hasTable/hasColumn, so repeated starts are a no-op. --force is required
+# because APP_ENV is production. `&&` is deliberate: if a migration fails the
+# container exits, Railway marks the deploy failed and keeps the previous
+# version serving, rather than running new code against an old schema.
+CMD ["sh", "-c", "php artisan migrate --force && cd public && exec php -S 0.0.0.0:${PORT:-8080} ../server.php"]
