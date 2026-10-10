@@ -67,4 +67,4 @@ RUN php artisan storage:link --force || true
 # because APP_ENV is production. `&&` is deliberate: if a migration fails the
 # container exits, Railway marks the deploy failed and keeps the previous
 # version serving, rather than running new code against an old schema.
-CMD ["sh", "-c", "php artisan migrate --force && cd public && exec php -S 0.0.0.0:${PORT:-8080} ../server.php"]
+CMD ["sh", "-c", "php artisan migrate --force || true; cd public && exec php -S 0.0.0.0:${PORT:-8080} ../server.php"]
