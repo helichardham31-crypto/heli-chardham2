@@ -89,10 +89,6 @@
                             <a href="https://wa.me/919587060474" target="_blank">+91 9587060474 <strong>(WhatsApp)</strong></a>
                         </p>
                         <p>
-                            <i class="fas fa-envelope"></i>
-                            <a href="mailto:helichardham31@gmail.com">helichardham31@gmail.com</a>
-                        </p>
-                        <p>
                             <i class="fas fa-globe"></i>
                             <a href="https://helichardham.co.in/" target="_blank">helichardham.co.in</a>
                         </p>

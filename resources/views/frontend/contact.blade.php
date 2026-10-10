@@ -54,13 +54,6 @@
                                         <a href="https://wa.me/919587060474" target="_blank">+91 9587060474 (WhatsApp)</a>
                                     </div>
                                 </div>
-                                <div class="col-12">
-                                    <div class="fw-medium mb-3">
-                                        <i class="hicon hicon-email-envelope text-primary me-2"></i>
-                                        <a href="mailto:helichardham31@gmail.com" class="text-break">helichardham31@gmail.com</a>
-
-                                    </div>
-                                </div>
                             </div>
                         </div>
                         <!-- /Contac Information -->

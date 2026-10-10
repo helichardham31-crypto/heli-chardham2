@@ -11,11 +11,6 @@
                         <i class="hicon hicon-telephone me-1"></i>
                         <span>+91 7976903598</span>
                     </a>
-                    <span class="vr bg-white d-none d-md-inline ms-3 me-3"></span>
-                    <a href="mailto:helichardham31@gmail.com" class="d-none d-md-inline">
-                        <i class="hicon hicon-email-envelope me-1"></i>
-                        <span>helichardham31@gmail.com</span>
-                    </a>
                 </div>
             </div>
             <div class="col-6 col-xl-5 col-md-4">
